@@ -13,8 +13,16 @@ async function getPeople() {
 }
 
 async function buildTable() {
+	const peopleData = {};
+
 	try {
 		const data = await getPeople();
+		const objectData = JSON.parse(data);
+		for (){
+			peopleData.person =
+		}
+
+		const lastName = objectData.name.last
 	} catch (e) {
 		console.log("Error " + e);
 	}
